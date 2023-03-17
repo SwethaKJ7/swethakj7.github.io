@@ -41,7 +41,7 @@ menuIcon.classList.remove('bx-x');
     //==================== scroll reveal ====================
 
     ScrollReveal({                   //From scrollreveal custumization
-        reset: true,
+        // reset: true,
         distance: '80px',
         duration: 2000,
         delay: 200
@@ -50,8 +50,8 @@ menuIcon.classList.remove('bx-x');
 
     ScrollReveal().reveal('.home-content,.heading', { origin: 'top' });
     ScrollReveal().reveal('.home-img,.project-box,.contact form', { origin: 'bottom' });
-    ScrollReveal().reveal('.home-content,.about-img', { origin: 'left' });
-    ScrollReveal().reveal('.home-content,.about-content', { origin: 'right' });
+    ScrollReveal().reveal('.home-content h1,.about-img', { origin: 'left' });
+    ScrollReveal().reveal('.home-content p,.about-content', { origin: 'right' });
 
       //==================== typed js ====================
 
@@ -64,7 +64,10 @@ menuIcon.classList.remove('bx-x');
         loop: true,
       });
 
+  
+      
 
-    //   ======================animated background==============================================
+
+
 
   
