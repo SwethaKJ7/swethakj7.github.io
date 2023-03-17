@@ -111,7 +111,7 @@ section{
 
  
   .home-content{
-   margin-left: 40%;
+    margin-left: ;
   }
 
 .home-content h3{
@@ -376,7 +376,7 @@ span{
 
 .footer-text p{
     font-size: 1.3rem;
-    color: green;
+    color: black;
 
 }
 
@@ -402,7 +402,7 @@ span{
 
 @media(max-width: 1200px){
     html{
-        font-size: 55%;
+        font-size: 5%;
     }
 }
 
