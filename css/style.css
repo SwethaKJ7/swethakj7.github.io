@@ -14,9 +14,10 @@
 
  :root{
     /* --bg-color: black; */
-    --second-bg-color: white;
+    --second-bg-color: black;
     --text-color: white;
-    --main-color: rgb(41, 178, 100)
+    /* --main-color: rgb(41, 178, 100) */
+    --main-color: rgb(253, 253, 7);
 
     ;
  }
@@ -98,21 +99,19 @@ section{
     align-items: center;
     /* Add any other styles you need for the section here */
   }
+
+
   
-  .home-img {
+.home-img  {
      position: absolute;
     top: 50%;
     left: 70%;
     transform: translate(-50%,-50%);
     /* Add any other styles you need for the image here */
-    width: 450px;
+    width: 50px;
     height: auto; 
    }
 
- 
-  .home-content{
-    margin-left: ;
-  }
 
 .home-content h3{
     font-size: 3.2rem;
@@ -318,7 +317,7 @@ span{
 
 .project-layer a i {
     font-size: 2rem;
-    color: var(--second-bg-color);
+    color: white;
 } 
 
 /* contact */
@@ -346,7 +345,7 @@ span{
     padding: 1.5rem;
     font-size: 1.6rem;
     color: black;
-    background: white;
+    background: rgb(244, 240, 241);
     border-radius: .8rem;
     margin: .7rem 0;
 }
@@ -376,7 +375,7 @@ span{
 
 .footer-text p{
     font-size: 1.3rem;
-    color: black;
+    color: white;
 
 }
 
@@ -402,7 +401,7 @@ span{
 
 @media(max-width: 1200px){
     html{
-        font-size: 5%;
+        font-size: 55%;
     }
 }
 
@@ -545,6 +544,52 @@ span{
         margin-top: 2rem;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .home {
+      background-image: url('images/code.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+  }
+ 
+  @media screen and (max-width: 768px) {
+    .home {
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+    }
+  
+    .home-img {
+      position: relative;
+      left: auto;
+      top: auto;
+      transform: none;
+      margin-bottom: 2rem;
+      width: 100%;
+    }
+  
+    .home-content h3 {
+      font-size: 2.4rem;
+    }
+  
+    .home-content h1 {
+      font-size: 4rem;
+    }
+  
+    .social-media a {
+      margin-right: 0;
+      margin-bottom: 1rem;
+    }
+  
+    .btn {
+      margin-top: 2rem;
+    }
+  } 
+
+  
+
+  
 
 
   
